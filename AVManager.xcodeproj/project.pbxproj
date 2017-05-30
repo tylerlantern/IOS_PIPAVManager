@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEEE22561EDDDF220013003D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE22551EDDDF220013003D /* AppDelegate.swift */; };
+		BEEE22581EDDDF220013003D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE22571EDDDF220013003D /* ViewController.swift */; };
+		BEEE225B1EDDDF220013003D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEE22591EDDDF220013003D /* Main.storyboard */; };
+		BEEE225D1EDDDF220013003D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEE225C1EDDDF220013003D /* Assets.xcassets */; };
+		BEEE22601EDDDF220013003D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEE225E1EDDDF220013003D /* LaunchScreen.storyboard */; };
+		BEEE226B1EDDDF220013003D /* AVManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE226A1EDDDF220013003D /* AVManagerTests.swift */; };
+		BEEE22761EDDDF220013003D /* AVManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE22751EDDDF220013003D /* AVManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEEE22671EDDDF220013003D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEEE224A1EDDDF220013003D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEEE22511EDDDF220013003D;
+			remoteInfo = AVManager;
+		};
+		BEEE22721EDDDF220013003D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEEE224A1EDDDF220013003D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEEE22511EDDDF220013003D;
+			remoteInfo = AVManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEEE22521EDDDF220013003D /* AVManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEE22551EDDDF220013003D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEEE22571EDDDF220013003D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEEE225A1EDDDF220013003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEEE225C1EDDDF220013003D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEEE225F1EDDDF220013003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEEE22611EDDDF220013003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEE22661EDDDF220013003D /* AVManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEE226A1EDDDF220013003D /* AVManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVManagerTests.swift; sourceTree = "<group>"; };
+		BEEE226C1EDDDF220013003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEE22711EDDDF220013003D /* AVManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEE22751EDDDF220013003D /* AVManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVManagerUITests.swift; sourceTree = "<group>"; };
+		BEEE22771EDDDF220013003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEEE224F1EDDDF220013003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEE22631EDDDF220013003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEE226E1EDDDF220013003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEEE22491EDDDF220013003D = {
+			isa = PBXGroup;
+			children = (
+				BEEE22541EDDDF220013003D /* AVManager */,
+				BEEE22691EDDDF220013003D /* AVManagerTests */,
+				BEEE22741EDDDF220013003D /* AVManagerUITests */,
+				BEEE22531EDDDF220013003D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEEE22531EDDDF220013003D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE22521EDDDF220013003D /* AVManager.app */,
+				BEEE22661EDDDF220013003D /* AVManagerTests.xctest */,
+				BEEE22711EDDDF220013003D /* AVManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEEE22541EDDDF220013003D /* AVManager */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE22551EDDDF220013003D /* AppDelegate.swift */,
+				BEEE22571EDDDF220013003D /* ViewController.swift */,
+				BEEE22591EDDDF220013003D /* Main.storyboard */,
+				BEEE225C1EDDDF220013003D /* Assets.xcassets */,
+				BEEE225E1EDDDF220013003D /* LaunchScreen.storyboard */,
+				BEEE22611EDDDF220013003D /* Info.plist */,
+			);
+			path = AVManager;
+			sourceTree = "<group>";
+		};
+		BEEE22691EDDDF220013003D /* AVManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE226A1EDDDF220013003D /* AVManagerTests.swift */,
+				BEEE226C1EDDDF220013003D /* Info.plist */,
+			);
+			path = AVManagerTests;
+			sourceTree = "<group>";
+		};
+		BEEE22741EDDDF220013003D /* AVManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE22751EDDDF220013003D /* AVManagerUITests.swift */,
+				BEEE22771EDDDF220013003D /* Info.plist */,
+			);
+			path = AVManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEEE22511EDDDF220013003D /* AVManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEE227A1EDDDF230013003D /* Build configuration list for PBXNativeTarget "AVManager" */;
+			buildPhases = (
+				BEEE224E1EDDDF220013003D /* Sources */,
+				BEEE224F1EDDDF220013003D /* Frameworks */,
+				BEEE22501EDDDF220013003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVManager;
+			productName = AVManager;
+			productReference = BEEE22521EDDDF220013003D /* AVManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEEE22651EDDDF220013003D /* AVManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEE227D1EDDDF230013003D /* Build configuration list for PBXNativeTarget "AVManagerTests" */;
+			buildPhases = (
+				BEEE22621EDDDF220013003D /* Sources */,
+				BEEE22631EDDDF220013003D /* Frameworks */,
+				BEEE22641EDDDF220013003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEEE22681EDDDF220013003D /* PBXTargetDependency */,
+			);
+			name = AVManagerTests;
+			productName = AVManagerTests;
+			productReference = BEEE22661EDDDF220013003D /* AVManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEEE22701EDDDF220013003D /* AVManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEE22801EDDDF230013003D /* Build configuration list for PBXNativeTarget "AVManagerUITests" */;
+			buildPhases = (
+				BEEE226D1EDDDF220013003D /* Sources */,
+				BEEE226E1EDDDF220013003D /* Frameworks */,
+				BEEE226F1EDDDF220013003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEEE22731EDDDF220013003D /* PBXTargetDependency */,
+			);
+			name = AVManagerUITests;
+			productName = AVManagerUITests;
+			productReference = BEEE22711EDDDF220013003D /* AVManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEEE224A1EDDDF220013003D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nattapong Unaregul";
+				TargetAttributes = {
+					BEEE22511EDDDF220013003D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MCP73L8734;
+						ProvisioningStyle = Automatic;
+					};
+					BEEE22651EDDDF220013003D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MCP73L8734;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEEE22511EDDDF220013003D;
+					};
+					BEEE22701EDDDF220013003D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MCP73L8734;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEEE22511EDDDF220013003D;
+					};
+				};
+			};
+			buildConfigurationList = BEEE224D1EDDDF220013003D /* Build configuration list for PBXProject "AVManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEEE22491EDDDF220013003D;
+			productRefGroup = BEEE22531EDDDF220013003D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEEE22511EDDDF220013003D /* AVManager */,
+				BEEE22651EDDDF220013003D /* AVManagerTests */,
+				BEEE22701EDDDF220013003D /* AVManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEEE22501EDDDF220013003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEE22601EDDDF220013003D /* LaunchScreen.storyboard in Resources */,
+				BEEE225D1EDDDF220013003D /* Assets.xcassets in Resources */,
+				BEEE225B1EDDDF220013003D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEE22641EDDDF220013003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEE226F1EDDDF220013003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEEE224E1EDDDF220013003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEE22581EDDDF220013003D /* ViewController.swift in Sources */,
+				BEEE22561EDDDF220013003D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEE22621EDDDF220013003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEE226B1EDDDF220013003D /* AVManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEE226D1EDDDF220013003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEE22761EDDDF220013003D /* AVManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEEE22681EDDDF220013003D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEEE22511EDDDF220013003D /* AVManager */;
+			targetProxy = BEEE22671EDDDF220013003D /* PBXContainerItemProxy */;
+		};
+		BEEE22731EDDDF220013003D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEEE22511EDDDF220013003D /* AVManager */;
+			targetProxy = BEEE22721EDDDF220013003D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEEE22591EDDDF220013003D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEE225A1EDDDF220013003D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEEE225E1EDDDF220013003D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEE225F1EDDDF220013003D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEEE22781EDDDF230013003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEEE22791EDDDF230013003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEEE227B1EDDDF230013003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = AVManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.AVManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BEEE227C1EDDDF230013003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = AVManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.AVManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BEEE227E1EDDDF230013003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = AVManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.AVManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVManager.app/AVManager";
+			};
+			name = Debug;
+		};
+		BEEE227F1EDDDF230013003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = AVManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.AVManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVManager.app/AVManager";
+			};
+			name = Release;
+		};
+		BEEE22811EDDDF230013003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = AVManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.AVManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AVManager;
+			};
+			name = Debug;
+		};
+		BEEE22821EDDDF230013003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = AVManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.AVManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AVManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEEE224D1EDDDF220013003D /* Build configuration list for PBXProject "AVManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEE22781EDDDF230013003D /* Debug */,
+				BEEE22791EDDDF230013003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEE227A1EDDDF230013003D /* Build configuration list for PBXNativeTarget "AVManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEE227B1EDDDF230013003D /* Debug */,
+				BEEE227C1EDDDF230013003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEEE227D1EDDDF230013003D /* Build configuration list for PBXNativeTarget "AVManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEE227E1EDDDF230013003D /* Debug */,
+				BEEE227F1EDDDF230013003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEEE22801EDDDF230013003D /* Build configuration list for PBXNativeTarget "AVManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEE22811EDDDF230013003D /* Debug */,
+				BEEE22821EDDDF230013003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEEE224A1EDDDF220013003D /* Project object */;
+}
