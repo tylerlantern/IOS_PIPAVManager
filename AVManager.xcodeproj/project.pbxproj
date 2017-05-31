@@ -14,6 +14,10 @@
 		BEEE22601EDDDF220013003D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEE225E1EDDDF220013003D /* LaunchScreen.storyboard */; };
 		BEEE226B1EDDDF220013003D /* AVManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE226A1EDDDF220013003D /* AVManagerTests.swift */; };
 		BEEE22761EDDDF220013003D /* AVManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE22751EDDDF220013003D /* AVManagerUITests.swift */; };
+		BEEE22851EDDDFA80013003D /* AVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE22841EDDDFA80013003D /* AVManager.swift */; };
+		BEEE22871EDDE02F0013003D /* AVConfigulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE22861EDDE02F0013003D /* AVConfigulation.swift */; };
+		BEEE22891EDDE4080013003D /* AVPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE22881EDDE4080013003D /* AVPlayerController.swift */; };
+		BEEE228B1EDED03D0013003D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BEEE228A1EDED03D0013003D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		BEEE22711EDDDF220013003D /* AVManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEE22751EDDDF220013003D /* AVManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVManagerUITests.swift; sourceTree = "<group>"; };
 		BEEE22771EDDDF220013003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEE22841EDDDFA80013003D /* AVManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVManager.swift; sourceTree = "<group>"; };
+		BEEE22861EDDE02F0013003D /* AVConfigulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVConfigulation.swift; sourceTree = "<group>"; };
+		BEEE22881EDDE4080013003D /* AVPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerController.swift; sourceTree = "<group>"; };
+		BEEE228A1EDED03D0013003D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		BEEE22491EDDDF220013003D = {
 			isa = PBXGroup;
 			children = (
+				BEEE228A1EDED03D0013003D /* README.md */,
 				BEEE22541EDDDF220013003D /* AVManager */,
 				BEEE22691EDDDF220013003D /* AVManagerTests */,
 				BEEE22741EDDDF220013003D /* AVManagerUITests */,
@@ -97,6 +106,7 @@
 		BEEE22541EDDDF220013003D /* AVManager */ = {
 			isa = PBXGroup;
 			children = (
+				BEEE22831EDDDF8A0013003D /* AVController */,
 				BEEE22551EDDDF220013003D /* AppDelegate.swift */,
 				BEEE22571EDDDF220013003D /* ViewController.swift */,
 				BEEE22591EDDDF220013003D /* Main.storyboard */,
@@ -123,6 +133,16 @@
 				BEEE22771EDDDF220013003D /* Info.plist */,
 			);
 			path = AVManagerUITests;
+			sourceTree = "<group>";
+		};
+		BEEE22831EDDDF8A0013003D /* AVController */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE22841EDDDFA80013003D /* AVManager.swift */,
+				BEEE22861EDDE02F0013003D /* AVConfigulation.swift */,
+				BEEE22881EDDE4080013003D /* AVPlayerController.swift */,
+			);
+			path = AVController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEE228B1EDED03D0013003D /* README.md in Sources */,
+				BEEE22851EDDDFA80013003D /* AVManager.swift in Sources */,
+				BEEE22871EDDE02F0013003D /* AVConfigulation.swift in Sources */,
 				BEEE22581EDDDF220013003D /* ViewController.swift in Sources */,
+				BEEE22891EDDE4080013003D /* AVPlayerController.swift in Sources */,
 				BEEE22561EDDDF220013003D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +538,7 @@
 				BEEE227C1EDDDF230013003D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEEE227D1EDDDF230013003D /* Build configuration list for PBXNativeTarget "AVManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +547,7 @@
 				BEEE227F1EDDDF230013003D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEEE22801EDDDF230013003D /* Build configuration list for PBXNativeTarget "AVManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +556,7 @@
 				BEEE22821EDDDF230013003D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
